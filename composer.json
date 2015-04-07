@@ -1,0 +1,21 @@
+{
+    "name": "grusch-it/contao-container",
+    "description": "A simple container element.",
+    "keywords": ["contao", "extension"],
+    "type": "contao-module",
+    "license": "LGPL-3.0+",
+    "require": {
+        "php": ">=5.3",
+        "contao/core": "3.4.*"
+    },
+    "autoload": {
+        "classmap": ["classes", "elements"]
+    },
+    "extra": {
+        "contao": {
+            "sources": {
+                "": "system/modules/gruschit_container"
+            }
+        }
+    }
+}
