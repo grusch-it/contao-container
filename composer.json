@@ -9,7 +9,7 @@
         "contao/core": "3.4.*"
     },
     "autoload": {
-        "classmap": ["classes", "elements"]
+        "classmap": ["elements"]
     },
     "extra": {
         "contao": {
